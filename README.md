@@ -1,1 +1,1 @@
-# MODAL
+all modal responsives.
