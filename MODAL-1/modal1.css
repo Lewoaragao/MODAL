@@ -1,0 +1,46 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: aquamarine;
+}
+
+.contentModal {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 5px 0 rgb(200, 200, 200);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contentModal h1 {
+    color: gray;
+    border-bottom: 1px solid gray;
+    width: 90%;
+}
+.contentModal button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: rgba(128, 128, 128, 0.5);
+}
+.contentModal p {
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 500px) {
+    .contentModal {
+        width: 90%;
+    }
+}
