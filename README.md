@@ -1,1 +1,1 @@
-all modal responsives.
+Vários estilos de Modal todos responsivos.
